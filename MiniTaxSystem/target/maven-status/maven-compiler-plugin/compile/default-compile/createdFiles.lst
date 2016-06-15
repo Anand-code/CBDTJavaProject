@@ -1,0 +1,6 @@
+com\lnt\dto\EmployeeDetails.class
+com\lnt\minitax\util\XmlConverter.class
+com\lnt\dto\PersonalDetails.class
+com\lnt\minitax\mapper\Mapper.class
+com\lnt\minitax\controller\EmployeeController.class
+com\lnt\dto\TaxDetails.class

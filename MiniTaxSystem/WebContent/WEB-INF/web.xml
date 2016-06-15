@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>MiniTaxSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>register.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>EmployeeController</display-name>
+    <servlet-name>EmployeeController</servlet-name>
+    <servlet-class>com.lnt.minitax.controller.EmployeeController</servlet-class>
+    <init-param>
+      <param-name>log4j-properties-location</param-name>
+      <param-value>WEB-INF/log4j.properties</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmployeeController</servlet-name>
+    <url-pattern>/EmployeeController</url-pattern>
+  </servlet-mapping>
+</web-app>
